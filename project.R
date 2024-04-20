@@ -1,5 +1,5 @@
 library(readr)
-ProjectRawData <- read_csv("BU/Y2 Sem2/BUSI2045/ProjectRawData.csv", 
+ProjectRawData <- read_csv("ProjectRawData.csv", 
   col_types = cols(Importance_Price = col_number(), 
      Importance_Safety = col_number(), 
      Importance_Conv = col_number(), Importance_Cus = col_number()))
@@ -8,13 +8,11 @@ library(ggplot2)
 library(ggcorrplot)
 library(nFactors)
 library(GGally)
-
 library(dplyr)
 s1<-ProjectRawData %>% 
   filter(OnlineTaxiService=="Yes") %>% 
   select(2,11,12,13,14) %>% 
   arrange(Gender)
-
 
 #Frequency bar chart
 bar_Price<-ggplot(s1, aes(x=Importance_Price, fill=Gender))+
@@ -51,10 +49,3 @@ porp_bar_Cus<-ggplot(port4, aes(x=Importance_Cus, y=Freq, fill=Gender))+
 porp_bar_Price+porp_bar_Safety+porp_bar_Conv+porp_bar_Cus+
   plot_annotation("Votes on score of different factors per gender (proportion)", 
                   theme=theme(plot.title=element_text(hjust=0.5)))
-
-
-s1$Gender<-ifelse(s1$Gender=="Male", 1, ifelse(s1$Gender=="Female",0,2))
-
-ggcorr(s1, label = T, label_round = 2)
-
-lm(Gender~Importance_Price+Importance_Safety+Importance_Conv+Importance_Cus, s1)
