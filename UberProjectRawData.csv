@@ -1,0 +1,33 @@
+﻿Response ID,Gender,Major,OnlineTaxiService,Frequency,Time,Cost,NumPeople,Std-or-Prem,MainTrans,Importance_Price,Importance_Safety,Importance_Conv,Importance_Cus,Improve_Price,Improve_Safety,Improve_Conv,Improve_Cus
+127966762,Female,Finance,Yes,Often,Morning,$50-75,1,Standard,Using MTR service,5,5,5,5,1,1,5,5
+127992777,Male,Accounting,Yes,Sometimes,Noon or Afternoon,$50-75,2,Standard,Using MTR service,4,4,4,4,4,1,2,3
+128824959,Male,Finance,Yes,Selfdom,Midnight,$75-100,1,Standard,Using MTR service,4,3,5,3,5,3,4,1
+129122186,Male,Accounting,Yes,Always,Midnight,$125-150,1,Standard,Using MTR service,5,4,5,3,1,3,5,4
+129123976,Prefer not to say,Marketing,Yes,Often,Midnight,more than $150,2,Standard,Bus and minibus,5,4,3,3,5,4,3,3
+129123992,Male,Finance,Yes,Selfdom,Midnight,more than $150,1,Standard,Using MTR service,5,4,5,3,5,3,3,4
+129124004,Female,Entrepreneurship,Yes,Always,Night,$100-125,1,Standard,Using MTR service,5,4,5,3,3,3,4,3
+129124015,Female,Marketing,Yes,Sometimes,Night,$100-125,2,Premium,Bus and minibus,3,3,5,2,1,2,4,2
+129124024,Male,I am not a HKBU BBA student,Yes,Sometimes,Midnight,more than $150,4,Standard,Using MTR service,5,3,5,4,5,3,5,3
+129124046,Male,Human Resource,Yes,Selfdom,Midnight,more than $150,3,Standard,Using MTR service,5,3,5,3,4,3,5,3
+129124051,Male,Accounting,Yes,Selfdom,Night,more than $150,3,Standard,Using MTR service,5,2,3,2,3,2,4,1
+129124054,Male,I am not a HKBU BBA student,Yes,Selfdom,Midnight,$75-100,2,Standard,Using MTR service,5,5,5,4,5,3,5,4
+129124055,Male,Human Resource,Yes,Selfdom,Midnight,more than $150,3,Standard,Using MTR service,5,3,5,3,4,3,5,3
+129124107,Prefer not to say,I am not a HKBU BBA student,Yes,Often,Noon or Afternoon,$50-75,1,Standard,Using MTR service,5,3,5,3,5,3,4,3
+129124132,Female,Human Resource,Yes,Always,Noon or Afternoon,$75-100,1,Premium,Private car,1,3,5,4,2,5,5,5
+129124151,Male,Finance,Yes,Often,Noon or Afternoon,$100-125,2,Standard,Bus and minibus,3,5,3,3,4,3,3,4
+129124158,Male,Entrepreneurship,Yes,Often,Morning,$50-75,1,Premium,Taxi,3,2,4,2,3,2,2,2
+129124169,Female,I am not a HKBU BBA student,No,,,,,,,,,,,,,,
+129124178,Female,I am not a HKBU BBA student,Yes,Sometimes,Night,more than $150,2,Standard,Using MTR service,5,5,4,4,5,5,4,4
+129124180,Female,Other BBA concentrations,No,,,,,,,,,,,,,,
+129124191,Male,ISEM,Yes,Selfdom,Noon or Afternoon,$75-100,3,Standard,Using MTR service,3,2,2,1,3,3,3,3
+129124206,Male,Marketing,Yes,Sometimes,Night,$75-100,3,Standard,Bus and minibus,5,3,4,5,4,5,3,2
+129124229,Female,ISEM,Yes,Selfdom,Noon or Afternoon,$75-100,2,Standard,Using MTR service,5,4,3,5,5,3,5,4
+129124231,Female,I am not a HKBU BBA student,Yes,Selfdom,Morning,more than $150,2,Standard,Using MTR service,5,5,4,3,5,5,4,3
+129124251,Male,I am not a HKBU BBA student,No,,,,,,,,,,,,,,
+129124255,Male,Marketing,Yes,Often,Noon or Afternoon,$75-100,2,Standard,Walking,5,4,3,4,5,4,4,4
+129124261,Female,Marketing,Yes,Sometimes,Noon or Afternoon,$100-125,2,Standard,Bus and minibus,3,3,3,3,3,3,2,2
+129124276,Male,Accounting,Yes,Selfdom,Night,more than $150,1,Standard,Using MTR service,5,4,5,4,5,3,4,3
+129124289,Male,I am not a HKBU BBA student,Yes,Sometimes,Night,$75-100,3,Standard,Using MTR service,5,5,3,4,5,4,3,2
+129124326,Male,Finance,Yes,Selfdom,Night,more than $150,4,Standard,Bus and minibus,4,2,2,2,2,2,3,3
+129124340,Female,ISEM,Yes,Often,Morning,$50-75,1,Standard,Walking,5,3,4,2,5,4,4,3
+129124357,Female,I am not a HKBU BBA student,Yes,Sometimes,Evening,more than $150,1,Standard,Bus and minibus,5,5,4,3,5,4,3,3
