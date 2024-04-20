@@ -4,6 +4,9 @@ author: "Jackyieym"
 date: "2024-04-20"
 output: rmarkdown::github_document
 ---
+```{r, echo = FALSE}
+knitr::opts_chunk$set(collapse=TRUE, comment="##", fig.retina=2, fig.path = "README_figs/README-")
+```
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
