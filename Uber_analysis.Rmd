@@ -2,7 +2,7 @@
 title: "Uber analysis"
 author: "Jackyieym"
 date: "2024-04-20"
-output: html_document
+output: rmarkdown::github_document
 ---
 
 ```{r setup, include=FALSE}
